@@ -1,0 +1,25 @@
+{
+  "name": "loglevel-timestamp",
+  "version": "1.0.0",
+  "description": "Prepends a timestamp to your loglevel messages with some extra :sparkle:",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreicek/loglevel-timestamp.git"
+  },
+  "keywords": [
+    "loglevel",
+    "unix",
+    "timestamp",
+    "timestamp"
+  ],
+  "author": "Andrei Zvonimir Crnkovic <andrei@infinum.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreicek/loglevel-timestamp/issues"
+  },
+  "homepage": "https://github.com/andreicek/loglevel-timestamp#readme",
+  "devDependencies": {
+    "loglevel": "^1.4.1"
+  }
+}
