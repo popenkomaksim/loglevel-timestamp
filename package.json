@@ -1,6 +1,6 @@
 {
   "name": "loglevel-timestamp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prepends a timestamp to your loglevel messages with some extra :sparkle:",
   "main": "index.js",
   "repository": {

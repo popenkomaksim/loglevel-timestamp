@@ -3,11 +3,11 @@ loglevel-timestamp
 
 Prepends a timestamp to your loglevel messages with some extra ✨.
 
-[![npm version](https://badge.fury.io/js/loglevel-timestamp.svg)](https://badge.fury.io/js/loglevel-timestamp)
+[![npm](https://img.shields.io/npm/v/loglevel-timestamp.svg?maxAge=2592000)](https://www.npmjs.com/package/loglevel-timestamp) [![GitHub issues](https://img.shields.io/github/issues/andreicek/loglevel-timestamp.svg?maxAge=2592000)](https://github.com/andreicek/loglevel-timestamp/issues)
 
 ## Example
 
-This can be used in node or in browser (see [browser support](#)).
+This can be used in node or in browser (see [browser support](#browser-support)).
 
 ```JavaScript
 prefixer(log, {
@@ -74,3 +74,7 @@ log.info('App started');
 - [ ] Code climate
 - [ ] User defined functions with custom context
 - [ ] Reordering built-in prefixers in log
+
+## Browser support
+
+This **will not** work in IE <=9!
