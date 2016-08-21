@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/andreicek/loglevel-timestamp#readme",
   "devDependencies": {
+    "eslint": "^3.3.1",
     "loglevel": "^1.4.1"
   }
 }

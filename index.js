@@ -1,4 +1,8 @@
+/* eslint strict: ["error", "function"] */
+
 function prefixer(log, options) {
+  'use strict';
+
   var opts = options || {};
   var originalFactory = log.methodFactory;
   var level = log.getLevel();
@@ -6,14 +10,14 @@ function prefixer(log, options) {
   var timestamp = new Date().toISOString();
   var shouldTimestamp = true;
 
-  if (opts.shouldTimestamp !== undefined) {
+  if (typeof opts.shouldTimestamp !== 'undefined') {
     shouldTimestamp = opts.shouldTimestamp;
   }
 
-  log.methodFactory = function(methodName, logLevel, loggerName) {
+  log.methodFactory = function(methodName, logLevel) {
     var rawMethod = originalFactory(methodName, logLevel);
 
-    return function () {
+    return function() {
       var messages = [];
       var args = Array.prototype.slice.call(arguments);
 
@@ -47,7 +51,7 @@ function prefixer(log, options) {
         messages.push(argument);
       });
 
-      rawMethod.apply(undefined, messages);
+      rawMethod.apply(null, messages);
     };
   };
 
