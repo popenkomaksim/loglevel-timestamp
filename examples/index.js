@@ -2,7 +2,7 @@ const logger = require('loglevel');
 const prefixer = require('../');
 
 var options = {
-  shouldTimestamp: true,
+  // shouldTimestamp: true,
   prefixStart: '[',
   prefixEnd: ']',
   shouldLevel: true,

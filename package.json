@@ -1,6 +1,6 @@
 {
   "name": "loglevel-timestamp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prepends a timestamp to your loglevel messages with some extra :sparkle:",
   "main": "index.js",
   "repository": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/andreicek/loglevel-timestamp#readme",
   "devDependencies": {
+    "eslint": "^3.3.1",
     "loglevel": "^1.4.1"
   }
 }
