@@ -2,7 +2,14 @@
   "name": "loglevel-timestamp",
   "version": "1.0.1",
   "description": "Prepends a timestamp to your loglevel messages with some extra :sparkle:",
-  "main": "index.js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "gulp start",
+    "test": "gulp test",
+    "prepush": "gulp precommit",
+    "precommit": "gulp precommit",
+    "coverage-report": "CODECLIMATE_REPO_TOKEN=$LOGLEVEL_TIMESTAMP_CODECLIMATE_REPO_TOKEN codeclimate-test-reporter < coverage/lcov.info"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andreicek/loglevel-timestamp.git"
@@ -20,7 +27,13 @@
   },
   "homepage": "https://github.com/andreicek/loglevel-timestamp#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "codeclimate-test-reporter": "^0.3.3",
     "eslint": "^3.3.1",
-    "loglevel": "^1.4.1"
+    "gulp": "^3.9.1",
+    "husky": "^0.11.6",
+    "loglevel": "^1.4.1",
+    "mocha": "^3.0.2"
   }
 }

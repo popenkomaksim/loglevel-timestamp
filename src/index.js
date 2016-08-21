@@ -3,6 +3,14 @@
 function prefixer(log, options) {
   'use strict';
 
+  function _checkOptions(params) {
+    if (params.prefixes && !(params.prefixes instanceof Array)) {
+      throw new Error('Prefixes should be an array');
+    }
+  }
+
+  _checkOptions(options);
+
   var opts = options || {};
   var originalFactory = log.methodFactory;
   var level = log.getLevel();

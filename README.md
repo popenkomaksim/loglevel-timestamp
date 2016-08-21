@@ -3,7 +3,7 @@ loglevel-timestamp
 
 Prepends a timestamp to your loglevel messages with some extra ✨.
 
-[![npm](https://img.shields.io/npm/v/loglevel-timestamp.svg?maxAge=2592000)](https://www.npmjs.com/package/loglevel-timestamp) [![GitHub issues](https://img.shields.io/github/issues/andreicek/loglevel-timestamp.svg?maxAge=2592000)](https://github.com/andreicek/loglevel-timestamp/issues)
+[![npm](https://img.shields.io/npm/v/loglevel-timestamp.svg?maxAge=2592000)](https://www.npmjs.com/package/loglevel-timestamp) [![GitHub issues](https://img.shields.io/github/issues/andreicek/loglevel-timestamp.svg?maxAge=2592000)](https://github.com/andreicek/loglevel-timestamp/issues) [![Build Status](https://semaphoreci.com/api/v1/andreicek/loglevel-timestamp/branches/master/shields_badge.svg)](https://semaphoreci.com/andreicek/loglevel-timestamp) [![Code Climate](https://codeclimate.com/repos/57b9765594d85154ed001c6c/badges/aa26f979b8c9560098b0/gpa.svg)](https://codeclimate.com/repos/57b9765594d85154ed001c6c/feed) [![Test Coverage](https://codeclimate.com/repos/57b9765594d85154ed001c6c/badges/aa26f979b8c9560098b0/coverage.svg)](https://codeclimate.com/repos/57b9765594d85154ed001c6c/coverage)
 
 ## Example
 
