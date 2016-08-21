@@ -9,7 +9,9 @@ function prefixer(log, options) {
     }
   }
 
-  _checkOptions(options);
+  if (options) {
+    _checkOptions(options);
+  }
 
   var opts = options || {};
   var originalFactory = log.methodFactory;
