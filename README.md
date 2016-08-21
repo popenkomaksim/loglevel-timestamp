@@ -7,6 +7,10 @@ Prepends a timestamp to your loglevel messages with some extra ✨.
 
 ## Example
 
+```
+  npm install --save loglevel-timestamp
+```
+
 This can be used in node or in browser (see [browser support](#browser-support)).
 
 ```JavaScript
