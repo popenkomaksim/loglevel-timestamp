@@ -3,7 +3,6 @@ function prefixer(log, options) {
   var originalFactory = log.methodFactory;
   var level = log.getLevel();
 
-  var timestamp = new Date().toISOString();
   var shouldTimestamp = true;
 
   if (opts.shouldTimestamp !== undefined) {
@@ -15,6 +14,7 @@ function prefixer(log, options) {
 
     return function () {
       var messages = [];
+      var timestamp = new Date().toISOString();
       var args = Array.prototype.slice.call(arguments);
 
       if (opts.prefixStart) {
