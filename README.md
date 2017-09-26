@@ -33,7 +33,7 @@ log.info('App started');
 
 * `shouldLevel`
 
-  'Boolean' - Default: 'false'
+  `Boolean` - Default: `false`
 
   Use this to define if log level should be displayed.
 
